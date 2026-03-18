@@ -114,6 +114,19 @@ name {
   width: 160px;
   height: 160px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one a {
+  display: block;
+  line-height: 0;
+}
+
+.one img {
+  display: block;
+  vertical-align: middle;
 }
 
 .two {
